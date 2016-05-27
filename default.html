@@ -1,3 +1,6 @@
+<!-- Setting the BASE URL for the page -->
+<?php include('scripts/php/base-url.php'); ?>
+
 <!DOCTYPE html>
 <HTML lang="en">
 
@@ -13,10 +16,10 @@
 	<title>Gabriel F. Lujan</title>
 
 	<!-- VENDOR STYLES -->
-	<link rel="stylesheet" href="/styles/css/bootstrap.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/bootstrap.css">
 
 	<!-- CUSTOM STYLES -->
-	<link rel="stylesheet" href="/styles/css/main.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/main.css">
 
 	<style type="text/css">
 		@import url(https://fonts.googleapis.com/css?family=Montserrat); /* 'Montserrat', sans-serif */
@@ -39,11 +42,11 @@
 	<p>I'll have something ready for you to see real soon! Please check back again.</p>
 
 	<!-- VENDOR SCRIPTS -->
-	<script src="/scripts/vendor/jquery-1.11.2.min.js"></script>
-	<script src="/scripts/vendor/bootstrap.min.js"></script>
+	<script src="<?php echo BASE_URL; ?>/scripts/vendor/jquery-1.11.2.min.js"></script>
+	<script src="<?php echo BASE_URL; ?>/scripts/vendor/bootstrap.min.js"></script>
 
 	<!-- CUSTOM SCRIPTS -->
-	<script src="/scripts/js/main.js"></script>
+	<script src="<?php echo BASE_URL; ?>/scripts/js/main.js"></script>
 
 </BODY>
 

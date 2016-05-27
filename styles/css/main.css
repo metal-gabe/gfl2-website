@@ -1,22 +1,82 @@
+/* ---------------------------------------------
+				GENERAL
+--------------------------------------------- */
+/* Custom Fonts */
+/* @import url(); /* Font Name-Spelling */
 
+/* Putting OUTLINES on everything for testing/visibility */
+/* * { outline: 1px dashed #f00; } */
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* Primary Color: #3b3f31;
+Secondary Color: #737a59; */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+body {
+	background-color: #3b3f31;
+}
+a {}
+address {}
 
 
 
+/* ---------------------------------------------
+				MAIN CONTAINER
+--------------------------------------------- */
+
+
+
+/* ---------------------------------------------
+				BADGES, BUTTONS & STICKERS
+--------------------------------------------- */
+button {}
+.btn {}
+.btn-cta {}
+
+
+
+/* ---------------------------------------------
+				DEFINE GENERAL {classes} HERE
+--------------------------------------------- */
+.ctr-text { text-align: center; }
+.ctr-vert { 
+	height: 100%; 
+	display: flex; 
+		display: -webkit-flex; 
+	align-items: center; 
+		-webkit-align-items: center; 
+		-moz-align-items: center; 
+		-ms-align-items: center; 
+		-o-align-items: center; 
+	justify-content: center; 
+		-webkit-justify-content: center; 
+		-moz-justify-content: center; 
+		-ms-justify-content: center; 
+		-o-justify-content: center; 
+}
+.date {}
+.email {}
+.hashtag {}
+.note {}
+.phone {}
+.quote {}
+.stroke-black { 
+	text-shadow: 
+		-1px -1px 0 #000, 
+		1px -1px 0 #000, 
+		-1px 1px 0 #000, 
+		1px 1px 0 #000; 
+}
+.stroke-pink { 
+	text-shadow: 
+		-1px -1px 0 #e40074, 
+		1px -1px 0 #e40074, 
+		-1px 1px 0 #e40074, 
+		1px 1px 0 #e40074; 
+}
+.stroke-white { 
+	text-shadow: 
+		-1px -1px 0 #fff, 
+		1px -1px 0 #fff, 
+		-1px 1px 0 #fff, 
+		1px 1px 0 #fff; 
+}
+.time {}

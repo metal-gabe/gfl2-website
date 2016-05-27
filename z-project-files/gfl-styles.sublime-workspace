@@ -125,9 +125,11 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/fr3ak/Documents/Repositories/WebDev/gflujan.com/styles"
 	],
 	"file_history":
 	[
+		"/Users/fr3ak/Documents/Repositories/WebDev/gflujan.com/z-project-files/gflujan-com.sublime-project",
 		"/Users/Gambit/Cloud/Google Drive - A New Level/Verticals-Projects/WebDesign/2-gflujan/.htaccess",
 		"/Users/Gambit/Cloud/Google Drive - A New Level/Verticals-Projects/WebDesign/2-gflujan/scripts/php/base-url.php",
 		"/Users/Gambit/Cloud/Google Drive - A New Level/Verticals-Projects/WebDesign/2-gflujan/default.html",
@@ -254,12 +256,11 @@
 		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/portfolios.css",
 		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/portfolios.html",
 		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/home.html",
-		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/portfolios.html",
-		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/portfolio.html"
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/portfolios.html"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -320,7 +321,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -362,10 +363,10 @@
 		"height": 98.0
 	},
 	"pinned_build_system": "",
-	"project": "gflujan-com.sublime-project",
+	"project": "gfl-styles.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
