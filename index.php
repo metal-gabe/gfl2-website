@@ -46,11 +46,11 @@
 				<div id="left-scroll"><img src="left.png" /></div>
 				<div id="carousel-inner">
 					<ul id="carousel-ul">
-						<li><a href="#"><img src="item1.png" /></a></li>
-						<li><a href="#"><img src="item2.png" /></a></li>
-						<li><a href="#"><img src="item3.png" /></a></li>
-						<li><a href="#"><img src="item4.png" /></a></li>
-						<li><a href="#"><img src="item5.png" /></a></li>
+						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
+						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
+						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
+						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
+						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
 					</ul>
 				</div>
 				<div id="right-scroll"><img src="right.png" /></div>
