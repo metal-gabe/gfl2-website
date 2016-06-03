@@ -20,6 +20,7 @@
 
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/main.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/carousel.css">
 
 </HEAD>
 
@@ -28,42 +29,38 @@
 <BODY>
 
 	<!-- MAIN TRUNK OF Gabriel's Portfolio -->
-	<div id="CONTAINER">
-		<header>
+	<div id="CONTAINER" class="container-fluid">
+		<header class="row">
 			<nav id="main">
 				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li><a href="#">Link #1</a></li>
+					<li><a href="#">Link #2</a></li>
+					<li><a href="#">Link #3</a></li>
+					<li><a href="#">Link #4</a></li>
 				</ul>
 			</nav>
 			<div id="hero"></div>
 		</header>
 		<section id="content">
-			<div id="case-study"></div>
-			<div id="projects">
-				<div id="left-scroll"><img src="left.png" /></div>
-				<div id="carousel-inner">
-					<ul id="carousel-ul">
-						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
-						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
-						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
-						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
-						<li><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></li>
-					</ul>
+			<div id="case-study" class="row"><p>My Case Study Goes Here</p></div>
+			<div id="projects" class="row">
+				<div id="carousel" class="row col-md-8">
+					<div class="col-md-3"><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></div>
+					<div class="col-md-3"><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></div>
+					<div class="col-md-3"><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></div>
 				</div>
-				<div id="right-scroll"><img src="right.png" /></div>
+				<div id="left-scroll" class="col-md-2"></div>
+				<div id="right-scroll" class="col-md-2"></div>
 			</div>
-			<div id="skills"></div>
+			<div id="skills" class="row"><p>This is a list of my skills &amp; the tools I use.</p></div>
 		</section>
-		<footer>
+		<footer class="row">
 			<nav id="social-media">
 				<ul>
-					<li class="social-badge lnkd"></li>
-					<li class="social-badge beha"></li>
-					<li class="social-badge drib"></li>
-					<li class="social-badge twit"></li>
+					<li class="social-badge lnkd"><a href="#">Social #1</a></li>
+					<li class="social-badge beha"><a href="#">Social #2</a></li>
+					<li class="social-badge drib"><a href="#">Social #3</a></li>
+					<li class="social-badge twit"><a href="#">Social #4</a></li>
 				</ul>
 			</nav>
 		</footer>

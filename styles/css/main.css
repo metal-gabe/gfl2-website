@@ -10,20 +10,94 @@
 /* Primary Color: #3b3f31;
 Secondary Color: #737a59; */
 
-body {
+body
+{
+	color: #ccc;
 	background-color: #3b3f31;
 }
-a {}
-address {}
+a
+{
+	/*  */
+}
+address
+{
+	/*  */
+}
 
 
 
 /* ---------------------------------------------
 				MAIN CONTAINER
 --------------------------------------------- */
-#CONTAINER { 
-	margin: 0 auto; 
-	width: 80%; 
+#CONTAINER
+{
+	width: 54%;
+	margin: 0 auto;
+}
+header
+{
+	outline: 1px dashed yellow;
+}
+nav#main
+{
+	float: left;
+
+	width: 50%;
+
+	outline: 1px dashed Red;
+}
+nav#main > ul > li
+{
+	display: inline;
+
+	list-style-type: none;
+}
+#hero
+{
+	position: relative;
+
+	float: right;
+
+	width: 25%;
+	height: 10rem;
+
+	outline: 1px dashed lightblue;
+	background-image: url(../img/hero/gabe.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+}
+section#content
+{
+	outline: 1px dashed lightblue;
+}
+div#case-study
+{
+	clear: both;
+
+	height: 100px;
+
+	outline: 1px dashed yellowgreen;
+}
+div#projects
+{
+	clear: both;
+
+	height: 100px;
+
+	outline: 1px dashed antiquewhite;
+}
+div#skills
+{
+	clear: both;
+
+	height: 100px;
+
+	outline: 1px dashed red;
+}
+footer
+{
+	outline: 1px dashed green;
 }
 
 
@@ -31,56 +105,88 @@ address {}
 /* ---------------------------------------------
 				BADGES, BUTTONS & STICKERS
 --------------------------------------------- */
-button {}
-.btn {}
-.btn-cta {}
+button
+{
+	/*  */
+}
+.btn
+{
+	/*  */
+}
+.btn-cta
+{
+	/*  */
+}
 
 
 
 /* ---------------------------------------------
 				DEFINE GENERAL {classes} HERE
 --------------------------------------------- */
-.ctr-text { text-align: center; }
-.ctr-vert { 
-	height: 100%; 
-	display: flex; 
-		display: -webkit-flex; 
-	align-items: center; 
-		-webkit-align-items: center; 
-		-moz-align-items: center; 
-		-ms-align-items: center; 
-		-o-align-items: center; 
-	justify-content: center; 
-		-webkit-justify-content: center; 
-		-moz-justify-content: center; 
-		-ms-justify-content: center; 
-		-o-justify-content: center; 
+.ctr-text
+{
+	text-align: center;
 }
-.date {}
-.email {}
-.hashtag {}
-.note {}
-.phone {}
-.quote {}
-.stroke-black { 
-	text-shadow: 
-		-1px -1px 0 #000, 
-		1px -1px 0 #000, 
-		-1px 1px 0 #000, 
-		1px 1px 0 #000; 
+.ctr-vert
+{
+	display:         flex;
+	display: -webkit-flex;
+
+	height: 100%;
+
+	        align-items: center;
+	-webkit-align-items: center;
+	   -moz-align-items: center;
+	    -ms-align-items: center;
+	     -o-align-items: center;
+	        justify-content: center;
+	-webkit-justify-content: center;
+	   -moz-justify-content: center;
+	    -ms-justify-content: center;
+	     -o-justify-content: center;
 }
-.stroke-pink { 
-	text-shadow: 
-		-1px -1px 0 #e40074, 
-		1px -1px 0 #e40074, 
-		-1px 1px 0 #e40074, 
-		1px 1px 0 #e40074; 
+.date
+{
+	/*  */
 }
-.stroke-white { 
-	text-shadow: 
-		-1px -1px 0 #fff, 
-		1px -1px 0 #fff, 
-		-1px 1px 0 #fff, 
-		1px 1px 0 #fff; 
+.email
+{
+	/*  */
 }
-.time {}
+.hashtag
+{
+	/*  */
+}
+.note
+{
+	/*  */
+}
+.phone
+{
+	/*  */
+}
+.quote
+{
+	/*  */
+}
+.stroke-black
+{
+	text-shadow: -1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+.stroke-pink
+{
+	text-shadow: -1px -1px 0 #e40074,
+	1px -1px 0 #e40074,
+	-1px 1px 0 #e40074,
+	1px 1px 0 #e40074;
+}
+.stroke-white
+{
+	text-shadow: -1px -1px 0 #fff,
+	1px -1px 0 #fff,
+	-1px 1px 0 #fff,
+	1px 1px 0 #fff;
+}
