@@ -20,7 +20,6 @@
 
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/main.css">
-	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/carousel.css">
 
 </HEAD>
 
@@ -29,7 +28,7 @@
 <BODY>
 
 	<!-- MAIN TRUNK OF Gabriel's Portfolio -->
-	<div id="CONTAINER" class="container-fluid">
+	<div id="CONTAINER" class="container">
 		<header class="row">
 			<nav id="main">
 				<ul>
@@ -41,16 +40,16 @@
 			</nav>
 			<div id="hero"></div>
 		</header>
-		<section id="content">
+		<section id="content" class="row">
 			<div id="case-study" class="row"><p>My Case Study Goes Here</p></div>
-			<div id="projects" class="row">
-				<div id="carousel" class="row col-md-8">
-					<div class="col-md-3"><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></div>
-					<div class="col-md-3"><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></div>
-					<div class="col-md-3"><a href="#"><img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /></a></div>
+			<div id="projects" class="row container-fluid">
+				<div id="left-scroll" class="col-md-1"></div>
+				<div id="carousel" class="row col-md-10">
+					<div class="col-md-4"><a href="#"><!-- <img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /> --></a></div>
+					<div class="col-md-4"><a href="#"><!-- <img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /> --></a></div>
+					<div class="col-md-4"><a href="#"><!-- <img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /> --></a></div>
 				</div>
-				<div id="left-scroll" class="col-md-2"></div>
-				<div id="right-scroll" class="col-md-2"></div>
+				<div id="right-scroll" class="col-md-1"></div>
 			</div>
 			<div id="skills" class="row"><p>This is a list of my skills &amp; the tools I use.</p></div>
 		</section>

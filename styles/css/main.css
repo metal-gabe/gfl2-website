@@ -34,71 +34,101 @@ address
 	width: 54%;
 	margin: 0 auto;
 }
-header
-{
-	outline: 1px dashed yellow;
-}
-nav#main
-{
-	float: left;
+	header
+	{
+		outline: 1px dashed yellow;
+	}
+		nav#main
+		{
+			float: left;
 
-	width: 50%;
+			width: 50%;
 
-	outline: 1px dashed Red;
-}
-nav#main > ul > li
-{
-	display: inline;
+			outline: 1px dashed Red;
+		}
+		nav#main > ul > li
+		{
+			display: inline;
 
-	list-style-type: none;
-}
-#hero
-{
-	position: relative;
+			list-style-type: none;
+		}
+		#hero
+		{
+			position: relative;
 
-	float: right;
+			float: right;
 
-	width: 25%;
-	height: 10rem;
+			width: 25%;
+			height: 10rem;
 
-	outline: 1px dashed lightblue;
-	background-image: url(../img/hero/gabe.jpg);
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: contain;
-}
-section#content
-{
-	outline: 1px dashed lightblue;
-}
-div#case-study
-{
-	clear: both;
+			outline: 1px dashed lightblue;
+			background-image: url(../img/hero/gabe.jpg);
+			background-repeat: no-repeat;
+			background-position: top center;
+			background-size: contain;
+		}
+	section#content
+	{
+		outline: 1px dashed lightblue;
+	}
+		div#case-study
+		{
+			clear: both;
 
-	height: 100px;
+			height: 100px;
 
-	outline: 1px dashed yellowgreen;
-}
-div#projects
-{
-	clear: both;
+			outline: 1px dashed yellowgreen;
+		}
+		div#projects
+		{
+			clear: both;
 
-	height: 100px;
+			height: 100px;
 
-	outline: 1px dashed antiquewhite;
-}
-div#skills
-{
-	clear: both;
+			outline: 1px dashed antiquewhite;
+		}
+			div#carousel
+			{
+				clear: both;
+			}
+				div#carousel > div.col-md-4
+				{
+					outline: 1px dashed Yellow;
+					height: 10rem;
+				}
+			#left-scroll,
+			#right-scroll
+			{
+				float: left;
 
-	height: 100px;
+				width: 15px;
+				height: 130px;
 
-	outline: 1px dashed red;
-}
-footer
-{
-	outline: 1px dashed green;
-}
+				cursor: pointer;
+				cursor: hand;
+
+				background: #c0c0c0;
+				background-image: url(../img/nav-arrow-right.jpg);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+			#right-scroll
+			{
+				float: right;
+			}
+		div#skills
+		{
+			clear: both;
+
+			height: 100px;
+
+			outline: 1px dashed red;
+		}
+	footer
+	{
+		outline: 1px dashed green;
+	}
 
 
 
