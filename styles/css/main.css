@@ -32,103 +32,142 @@ address
 #CONTAINER
 {
 	width: 54%;
+	min-height: 100vh;
 	margin: 0 auto;
+
+	background-color: #fff;
 }
-	header
-	{
-		outline: 1px dashed yellow;
-	}
-		nav#main
-		{
-			float: left;
+header
+{
+	height: 14rem;
 
-			width: 50%;
+	outline: 1px dashed yellow;
+	background-color: #b90;
+}
+nav#main
+{
+	float: left;
 
-			outline: 1px dashed Red;
-		}
-		nav#main > ul > li
-		{
-			display: inline;
+	width: 25%;
 
-			list-style-type: none;
-		}
-		#hero
-		{
-			position: relative;
+	outline: 1px dashed cadetblue;
+	background-color: #fac;
+}
+nav#main > ul
+{
+	margin: 0;
+	padding: 0;
 
-			float: right;
+	text-align: center;
+}
+nav#main > ul > li
+{
+	display: inline;
 
-			width: 25%;
-			height: 10rem;
+	list-style-type: none;
 
-			outline: 1px dashed lightblue;
-			background-image: url(../img/hero/gabe.jpg);
-			background-repeat: no-repeat;
-			background-position: top center;
-			background-size: contain;
-		}
-	section#content
-	{
-		outline: 1px dashed lightblue;
-	}
-		div#case-study
-		{
-			clear: both;
+	border: 0.2rem solid #000;
+}
+#hero
+{
+	position: relative;
 
-			height: 100px;
+	float: right;
 
-			outline: 1px dashed yellowgreen;
-		}
-		div#projects
-		{
-			clear: both;
+	width: 25%;
+	height: 10rem;
 
-			height: 100px;
+	outline: 1px dashed lightblue;
+	background-color: #0ab;
+	background-image: url(../img/hero/gabe.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+}
+section#content
+{
+	outline: 1px dashed lightblue;
+}
+div#case-study
+{
+	clear: both;
 
-			outline: 1px dashed antiquewhite;
-		}
-			div#carousel
-			{
-				clear: both;
-			}
-				div#carousel > div.col-md-4
-				{
-					outline: 1px dashed Yellow;
-					height: 10rem;
-				}
-			#left-scroll,
-			#right-scroll
-			{
-				float: left;
+	height: 16rem;
 
-				width: 15px;
-				height: 130px;
+	outline: 1px dashed yellowgreen;
+	background-color: #333;
+}
+div#projects
+{
+	outline: 1px dashed antiquewhite;
+}
+div#carousel > div > div
+{
+	height: 26rem;
 
-				cursor: pointer;
-				cursor: hand;
+	outline: 1px dashed blueviolet;
+}
+div.project
+{
+	background-image: url(../../pics/proj-placeholder.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+div#left-scroll,
+div#right-scroll
+{
+	position: relative;
 
-				background: #c0c0c0;
-				background-image: url(../img/nav-arrow-right.jpg);
-				background-repeat: no-repeat;
-				background-position: center;
-				background-size: contain;
-			}
-			#right-scroll
-			{
-				float: right;
-			}
-		div#skills
-		{
-			clear: both;
+	height: 10rem;
 
-			height: 100px;
+	cursor: pointer;
+	cursor: hand;
 
-			outline: 1px dashed red;
-		}
-	footer
-	{
-		outline: 1px dashed green;
-	}
+	background: #f00;
+	background-image: url(../img/nav-arrow-right.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+div#skills
+{
+	clear: both;
+
+	outline: 1px dashed red;
+	background-color: #328;
+}
+div#skills > ul
+{
+	text-align: center;
+}
+footer
+{
+	height: 14rem;
+
+	outline: 1px dashed green;
+	background-color: #90a;
+}
+nav#social-media
+{
+	outline: 1px dashed blue;
+	background-color: #a9f;
+}
+nav#social-media > ul
+{
+	margin: 0;
+	padding: 0;
+
+	text-align: center;
+}
+nav#social-media > ul > li
+{
+	display: inline;
+
+	list-style-type: none;
+
+	border: 0.2rem solid #000;
+}
 
 
 

@@ -32,34 +32,52 @@
 		<header class="row">
 			<nav id="main">
 				<ul>
-					<li><a href="#">Link #1</a></li>
-					<li><a href="#">Link #2</a></li>
-					<li><a href="#">Link #3</a></li>
-					<li><a href="#">Link #4</a></li>
+					<li class="col-md-3"><a href="#">Link #1</a></li>
+					<li class="col-md-3"><a href="#">Link #2</a></li>
+					<li class="col-md-3"><a href="#">Link #3</a></li>
+					<li class="col-md-3"><a href="#">Link #4</a></li>
 				</ul>
 			</nav>
 			<div id="hero"></div>
 		</header>
-		<section id="content" class="row">
+		<section id="content">
 			<div id="case-study" class="row"><p>My Case Study Goes Here</p></div>
-			<div id="projects" class="row container-fluid">
-				<div id="left-scroll" class="col-md-1"></div>
-				<div id="carousel" class="row col-md-10">
-					<div class="col-md-4"><a href="#"><!-- <img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /> --></a></div>
-					<div class="col-md-4"><a href="#"><!-- <img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /> --></a></div>
-					<div class="col-md-4"><a href="#"><!-- <img src="<?php echo BASE_URL; ?>/pics/proj-placeholder.jpg" /> --></a></div>
+			<div id="projects" class="row">
+				<div id="carousel" class="col-md-12">
+					<div class="row">
+						<div id="left-scroll" class="col-md-1"></div>
+						<div class="col-md-3 project"><a href="#"></a></div>
+						<div class="col-md-4 project"><a href="#"></a></div>
+						<div class="col-md-3 project"><a href="#"></a></div>
+						<div id="right-scroll" class="col-md-1"></div>
+					</div>
 				</div>
-				<div id="right-scroll" class="col-md-1"></div>
 			</div>
-			<div id="skills" class="row"><p>This is a list of my skills &amp; the tools I use.</p></div>
+			<div id="skills" class="row">
+				<ul class="col-md-4">
+					<li>Skill 1</li>
+					<li>Skill 2</li>
+					<li>Skill 3</li>
+				</ul>
+				<ul class="col-md-4">
+					<li>Skill 1</li>
+					<li>Skill 2</li>
+					<li>Skill 3</li>
+				</ul>
+				<ul class="col-md-4">
+					<li>Skill 1</li>
+					<li>Skill 2</li>
+					<li>Skill 3</li>
+				</ul>
+			</div>
 		</section>
 		<footer class="row">
-			<nav id="social-media">
+			<nav id="social-media" class="col-md-4 col-md-offset-8 col-sm-12 col-sm-offset-0">
 				<ul>
-					<li class="social-badge lnkd"><a href="#">Social #1</a></li>
-					<li class="social-badge beha"><a href="#">Social #2</a></li>
-					<li class="social-badge drib"><a href="#">Social #3</a></li>
-					<li class="social-badge twit"><a href="#">Social #4</a></li>
+					<li class="col-md-3 social-badge lnkd"><a href="#">Social #1</a></li>
+					<li class="col-md-3 social-badge beha"><a href="#">Social #2</a></li>
+					<li class="col-md-3 social-badge drib"><a href="#">Social #3</a></li>
+					<li class="col-md-3 social-badge twit"><a href="#">Social #4</a></li>
 				</ul>
 			</nav>
 		</footer>
