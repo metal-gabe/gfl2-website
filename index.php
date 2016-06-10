@@ -74,10 +74,10 @@
 		<footer class="row">
 			<nav id="social-media" class="col-md-4 col-md-offset-8 col-sm-12 col-sm-offset-0">
 				<ul>
-					<li class="col-md-3 social-badge lnkd"><a href="#">Social #1</a></li>
-					<li class="col-md-3 social-badge beha"><a href="#">Social #2</a></li>
-					<li class="col-md-3 social-badge drib"><a href="#">Social #3</a></li>
-					<li class="col-md-3 social-badge twit"><a href="#">Social #4</a></li>
+					<li class="col-md-3 social-badge lnkd"><a href="#">LinkedIn</a></li>
+					<li class="col-md-3 social-badge beha"><a href="#">Behance</a></li>
+					<li class="col-md-3 social-badge drib"><a href="#">Dribbble</a></li>
+					<li class="col-md-3 social-badge twit"><a href="#">Twitter</a></li>
 				</ul>
 			</nav>
 		</footer>
