@@ -35,7 +35,7 @@ address
 	min-height: 100vh;
 	margin: 0 auto;
 
-	background-color: #fff;
+	outline: 1px dashed black;
 }
 header
 {
@@ -48,7 +48,7 @@ nav#main
 {
 	float: left;
 
-	width: 25%;
+	width: auto;
 
 	outline: 1px dashed cadetblue;
 	background-color: #fac;
@@ -63,6 +63,10 @@ nav#main > ul
 nav#main > ul > li
 {
 	display: inline;
+
+	width: 5rem;
+	height: 5rem;
+	margin-left: 1rem;
 
 	list-style-type: none;
 
@@ -86,30 +90,46 @@ nav#main > ul > li
 }
 section#content
 {
+	margin-top: 10rem;
+
 	outline: 1px dashed lightblue;
 }
 div#case-study
 {
 	clear: both;
 
-	height: 16rem;
+	height: 32rem;
 
 	outline: 1px dashed yellowgreen;
 	background-color: #333;
+	background-image: url(../img/proj/case-study.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 68%;
+	background-size: cover;
 }
 div#projects
 {
 	outline: 1px dashed antiquewhite;
 }
-div#carousel > div > div
+div#carousel
+{
+	position: relative;
+}
+div#carousel > ul
+{
+	margin-bottom: 0;
+}
+div#carousel > ul > li
 {
 	height: 26rem;
 
+	list-style-type: none;
+
 	outline: 1px dashed blueviolet;
 }
-div.project
+li.project
 {
-	background-image: url(../../pics/proj-placeholder.jpg);
+	background-image: url(../img/proj/proj-placeholder.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -117,18 +137,32 @@ div.project
 div#left-scroll,
 div#right-scroll
 {
-	position: relative;
+	position: absolute;
+	z-index: 2;
+	top: 0;
 
-	height: 10rem;
+	height: 26rem;
 
 	cursor: pointer;
 	cursor: hand;
 
-	background: #f00;
-	background-image: url(../img/nav-arrow-right.jpg);
+	outline: 1px dashed red;
+	background-image: url(../img/nav/nav-arrow-right.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
+}
+div#left-scroll
+{
+	left: 1.25%;
+
+	transform: rotate(180deg);
+}
+div#right-scroll
+{
+	right: 1.25%;
+
+	float: right;
 }
 div#skills
 {
@@ -139,6 +173,10 @@ div#skills
 }
 div#skills > ul
 {
+	margin: 2rem 0;
+
+	list-style-type: none;
+
 	text-align: center;
 }
 footer

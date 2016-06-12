@@ -38,19 +38,19 @@
 					<li class="col-md-3"><a href="#">Link #4</a></li>
 				</ul>
 			</nav>
-			<div id="hero"></div>
+			<div id="hero">Hero Pic</div>
 		</header>
-		<section id="content">
+		<section id="content" class="row container-fluid">
 			<div id="case-study" class="row"><p>My Case Study Goes Here</p></div>
 			<div id="projects" class="row">
-				<div id="carousel" class="col-md-12">
-					<div class="row">
-						<div id="left-scroll" class="col-md-1"></div>
-						<div class="col-md-3 project"><a href="#"></a></div>
-						<div class="col-md-4 project"><a href="#"></a></div>
-						<div class="col-md-3 project"><a href="#"></a></div>
-						<div id="right-scroll" class="col-md-1"></div>
-					</div>
+				<div id="carousel" class="row">
+					<div id="left-scroll" class="col-md-1">Left</div>
+					<ul class="col-md-12">
+						<li id="proj1" class="col-md-4 project"><a href="#">Project #1</a></li>
+						<li id="proj2" class="col-md-4 project"><a href="#">Project #2</a></li>
+						<li id="proj3" class="col-md-4 project"><a href="#">Project #3</a></li>
+					</ul>
+					<div id="right-scroll" class="col-md-1">Right</div>
 				</div>
 			</div>
 			<div id="skills" class="row">
@@ -74,10 +74,10 @@
 		<footer class="row">
 			<nav id="social-media" class="col-md-4 col-md-offset-8 col-sm-12 col-sm-offset-0">
 				<ul>
-					<li class="col-md-3 social-badge lnkd"><a href="#">LinkedIn</a></li>
-					<li class="col-md-3 social-badge beha"><a href="#">Behance</a></li>
-					<li class="col-md-3 social-badge drib"><a href="#">Dribbble</a></li>
-					<li class="col-md-3 social-badge twit"><a href="#">Twitter</a></li>
+					<li id="lnkd" class="col-md-3 social-badge"><a href="#">Social #1</a></li>
+					<li id="beha" class="col-md-3 social-badge"><a href="#">Social #2</a></li>
+					<li id="drib" class="col-md-3 social-badge"><a href="#">Social #3</a></li>
+					<li id="twit" class="col-md-3 social-badge"><a href="#">Social #4</a></li>
 				</ul>
 			</nav>
 		</footer>
