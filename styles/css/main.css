@@ -2,7 +2,19 @@
 				GENERAL
 --------------------------------------------- */
 /* Custom Fonts */
-/* @import url(); /* Font Name-Spelling */
+@font-face
+{
+	font-family: 'gotham';
+	font-weight: normal;
+	font-style: normal;
+
+	src: url('../fonts/Gotham-Book.eot');
+	src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Gotham-Book.woff2') format('woff2'),
+	url('../fonts/Gotham-Book.woff') format('woff'),
+	url('../fonts/Gotham-Book.ttf') format('truetype'),
+	url('../fonts/Gotham-Book.svg#gotham') format('svg');
+}
 
 /* Putting OUTLINES on everything for testing/visibility */
 /* * { outline: 1px dashed #f00; } */
@@ -12,16 +24,28 @@ Secondary Color: #737a59; */
 
 body
 {
+	font-family: gotham;
+
+	-webkit-transition: all 0.5s ease-in-out;
+	   -moz-transition: all 0.5s ease-in-out;
+	    -ms-transition: all 0.5s ease-in-out;
+	     -o-transition: all 0.5s ease-in-out;
+	        transition: all 0.5s ease-in-out;
+
 	color: #ccc;
 	background-color: #3b3f31;
 }
 a
 {
-	/*  */
+	color: #ccc;
 }
 address
 {
 	/*  */
+}
+h2
+{
+	outline: 1px dashed red;
 }
 
 
@@ -31,27 +55,30 @@ address
 --------------------------------------------- */
 #CONTAINER
 {
-	width: 54%;
+	width: 56%;
 	min-height: 100vh;
 	margin: 0 auto;
 
-	outline: 1px dashed black;
+	outline: 1px dashed grey;
 }
 header
 {
-	height: 14rem;
+	height: 30rem;
 
-	outline: 1px dashed yellow;
-	background-color: #b90;
+	background-color: #737a59;
+	background-image: url(../img/nav/cover-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 nav#main
 {
+	position: relative;
+	top: 88%;
+
 	float: left;
 
 	width: auto;
-
-	outline: 1px dashed cadetblue;
-	background-color: #fac;
 }
 nav#main > ul
 {
@@ -64,35 +91,36 @@ nav#main > ul > li
 {
 	display: inline;
 
-	width: 5rem;
-	height: 5rem;
-	margin-left: 1rem;
+	width: 7rem;
+	height: 7rem;
+	margin-left: 2rem;
+	padding: 0;
 
 	list-style-type: none;
 
-	border: 0.2rem solid #000;
+	outline: 1px dashed black;
+	background-color: #737a59;
 }
 #hero
 {
 	position: relative;
+	top: 68%;
+	right: 3rem;
 
 	float: right;
 
-	width: 25%;
-	height: 10rem;
+	width: 18rem;
+	height: 18rem;
 
-	outline: 1px dashed lightblue;
-	background-color: #0ab;
+	border-radius: 50%;
 	background-image: url(../img/hero/gabe.jpg);
 	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: contain;
+	background-position: center;
+	background-size: cover;
 }
 section#content
 {
-	margin-top: 10rem;
-
-	outline: 1px dashed lightblue;
+	margin-top: 12rem;
 }
 div#case-study
 {
@@ -100,16 +128,26 @@ div#case-study
 
 	height: 32rem;
 
-	outline: 1px dashed yellowgreen;
 	background-color: #333;
 	background-image: url(../img/proj/case-study.jpg);
 	background-repeat: no-repeat;
 	background-position: 0 68%;
 	background-size: cover;
 }
+div#case-study > h2
+{
+	position: relative;
+	top: -11%;
+
+	padding-left: 2rem;
+}
 div#projects
 {
-	outline: 1px dashed antiquewhite;
+	outline: 1px dashed yellow;
+}
+div#projects > h2
+{
+	text-align: center;
 }
 div#carousel
 {
@@ -124,15 +162,26 @@ div#carousel > ul > li
 	height: 26rem;
 
 	list-style-type: none;
-
-	outline: 1px dashed blueviolet;
 }
-li.project
+#proj1,
+#proj2,
+#proj3
 {
-	background-image: url(../img/proj/proj-placeholder.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+#proj1
+{
+	background-image: url(../img/proj/project-01.jpg);
+}
+#proj2
+{
+	background-image: url(../img/proj/project-02.jpg);
+}
+#proj3
+{
+	background-image: url(../img/proj/project-03.jpg);
 }
 div#left-scroll,
 div#right-scroll
@@ -141,12 +190,12 @@ div#right-scroll
 	z-index: 2;
 	top: 0;
 
+	width: 1rem;
 	height: 26rem;
 
 	cursor: pointer;
 	cursor: hand;
 
-	outline: 1px dashed red;
 	background-image: url(../img/nav/nav-arrow-right.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -168,8 +217,15 @@ div#skills
 {
 	clear: both;
 
-	outline: 1px dashed red;
-	background-color: #328;
+	margin-top: 4rem;
+
+	background-color: #737a59;
+}
+div#skills > h2
+{
+	padding-right: 2rem;
+
+	text-align: right;
 }
 div#skills > ul
 {
@@ -182,14 +238,13 @@ div#skills > ul
 footer
 {
 	height: 14rem;
+	margin-top: 4rem;
 
-	outline: 1px dashed green;
-	background-color: #90a;
+	background-color: #333;
 }
 nav#social-media
 {
-	outline: 1px dashed blue;
-	background-color: #a9f;
+	/*  */
 }
 nav#social-media > ul
 {
@@ -203,8 +258,28 @@ nav#social-media > ul > li
 	display: inline;
 
 	list-style-type: none;
-
-	border: 0.2rem solid #000;
+}
+.social-badge
+{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#lnkd
+{
+	background-image: url(../img/social-badges/sb-lnkd.jpg);
+}
+#bhnc
+{
+	background-image: url(../img/social-badges/sb-bhnc.jpg);
+}
+#drib
+{
+	background-image: url(../img/social-badges/sb-drib.jpg);
+}
+#twit
+{
+	background-image: url(../img/social-badges/sb-twit.jpg);
 }
 
 

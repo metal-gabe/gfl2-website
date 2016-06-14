@@ -32,28 +32,32 @@
 		<header class="row">
 			<nav id="main">
 				<ul>
-					<li class="col-md-3"><a href="#">Link #1</a></li>
-					<li class="col-md-3"><a href="#">Link #2</a></li>
-					<li class="col-md-3"><a href="#">Link #3</a></li>
-					<li class="col-md-3"><a href="#">Link #4</a></li>
+					<li class="col-md-3"><a href="#">Home</a></li>
+					<li class="col-md-3"><a href="#">About</a></li>
+					<li class="col-md-3"><a href="#">Overview</a></li>
+					<li class="col-md-3"><a href="#">Contact</a></li>
 				</ul>
 			</nav>
-			<div id="hero">Hero Pic</div>
+			<div id="hero"></div>
 		</header>
 		<section id="content" class="row container-fluid">
-			<div id="case-study" class="row"><p>My Case Study Goes Here</p></div>
+			<div id="case-study" class="row">
+				<h2>Case Study</h2>
+			</div>
 			<div id="projects" class="row">
+				<h2>Projects</h2>
 				<div id="carousel" class="row">
-					<div id="left-scroll" class="col-md-1">Left</div>
+					<div id="left-scroll" class="col-md-1"></div>
 					<ul class="col-md-12">
-						<li id="proj1" class="col-md-4 project"><a href="#">Project #1</a></li>
-						<li id="proj2" class="col-md-4 project"><a href="#">Project #2</a></li>
-						<li id="proj3" class="col-md-4 project"><a href="#">Project #3</a></li>
+						<li id="proj1" class="col-md-4 project"></li>
+						<li id="proj2" class="col-md-4 project"></li>
+						<li id="proj3" class="col-md-4 project"></li>
 					</ul>
-					<div id="right-scroll" class="col-md-1">Right</div>
+					<div id="right-scroll" class="col-md-1"></div>
 				</div>
 			</div>
 			<div id="skills" class="row">
+				<h2>Skills</h2>
 				<ul class="col-md-4">
 					<li>Skill 1</li>
 					<li>Skill 2</li>
@@ -74,10 +78,10 @@
 		<footer class="row">
 			<nav id="social-media" class="col-md-4 col-md-offset-8 col-sm-12 col-sm-offset-0">
 				<ul>
-					<li id="lnkd" class="col-md-3 social-badge"><a href="#">Social #1</a></li>
-					<li id="beha" class="col-md-3 social-badge"><a href="#">Social #2</a></li>
-					<li id="drib" class="col-md-3 social-badge"><a href="#">Social #3</a></li>
-					<li id="twit" class="col-md-3 social-badge"><a href="#">Social #4</a></li>
+					<a href="https://www.linkedin.com/in/gflujan/"><li id="lnkd" class="col-md-3 social-badge"></li></a>
+					<a href="behance.net/anewlevelmedia"><li id="bhnc" class="col-md-3 social-badge"></li></a>
+					<a href="https://dribbble.com/ANewLevelMedia"><li id="drib" class="col-md-3 social-badge"></li></a>
+					<a href="https://twitter.com/gabriel_lujan_"><li id="twit" class="col-md-3 social-badge"></li></a>
 				</ul>
 			</nav>
 		</footer>
