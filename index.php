@@ -28,8 +28,8 @@
 <BODY>
 
 	<!-- MAIN TRUNK OF Gabriel's Portfolio -->
-	<div id="CONTAINER" class="container">
-		<header class="row">
+	<header class="row">
+		<div id="head">
 			<nav id="main">
 				<ul>
 					<li class="col-md-3"><a href="#">Home</a></li>
@@ -39,7 +39,9 @@
 				</ul>
 			</nav>
 			<div id="hero"></div>
-		</header>
+		</div>
+	</header>
+	<div id="CONTAINER" class="container">
 		<section id="content" class="row container-fluid">
 			<div id="case-study" class="row">
 				<h2>Case Study</h2>
@@ -75,17 +77,17 @@
 				</ul>
 			</div>
 		</section>
-		<footer class="row">
-			<nav id="social-media" class="col-md-4 col-md-offset-8 col-sm-12 col-sm-offset-0">
-				<ul>
-					<a href="https://www.linkedin.com/in/gflujan/"><li id="lnkd" class="col-md-3 social-badge"></li></a>
-					<a href="behance.net/anewlevelmedia"><li id="bhnc" class="col-md-3 social-badge"></li></a>
-					<a href="https://dribbble.com/ANewLevelMedia"><li id="drib" class="col-md-3 social-badge"></li></a>
-					<a href="https://twitter.com/gabriel_lujan_"><li id="twit" class="col-md-3 social-badge"></li></a>
-				</ul>
-			</nav>
-		</footer>
 	</div>
+	<footer class="row">
+		<nav id="social-media" class="col-md-4 col-md-offset-8 col-sm-12 col-sm-offset-0">
+			<ul>
+				<a href="https://www.linkedin.com/in/gflujan/"><li id="lnkd" class="col-md-3 social-badge"></li></a>
+				<a href="behance.net/anewlevelmedia"><li id="bhnc" class="col-md-3 social-badge"></li></a>
+				<a href="https://dribbble.com/ANewLevelMedia"><li id="drib" class="col-md-3 social-badge"></li></a>
+				<a href="https://twitter.com/gabriel_lujan_"><li id="twit" class="col-md-3 social-badge"></li></a>
+			</ul>
+		</nav>
+	</footer>
 
 	<!-- VENDOR SCRIPTS -->
 	<script src="<?php echo BASE_URL; ?>/scripts/vendor/jquery-1.11.2.min.js"></script>
