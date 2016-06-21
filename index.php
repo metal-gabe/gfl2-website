@@ -13,7 +13,7 @@
 	<meta name="description" content="This is the portfolio site for all things pertaining to, and created by, Gabriel F. Lujan.">
 	<meta name="keywords" content="gabriel, floyd, lujan, portfolio, site, ux, ui, user, experience, interface, design, creative, audio, video, editing, post, production, sublime, text, 3, transmit, git, github, iterm, firefox, chrome, mozilla, developer, experiential, programming, html5, css3, html, css, javascript, jquery, bootstrap, modernizr, initializr, boilerplate, custom, built, website, websites, mockup, sketch, app, invision, vivaldi">
 
-	<title>Gabriel F. Lujan</title>
+	<title>Gabriel F. Lujan - UX/UI Designer</title>
 
 	<!-- VENDOR STYLES -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/bootstrap.min.css">
@@ -29,6 +29,12 @@
 
 	<!-- MAIN TRUNK OF Gabriel's Portfolio -->
 	<header class="row">
+		<div id="intro">
+			<p id="gfl">Gabriel F. Lujan</p>
+			<p id="tagline">
+				<span>It's never too late to be who you might have been.</span> - George Eliot
+			</p>
+		</div>
 		<div id="head">
 			<nav id="main">
 				<ul>
@@ -43,11 +49,10 @@
 	</header>
 	<div id="CONTAINER" class="container">
 		<section id="content" class="row container-fluid">
-			<div id="case-study" class="row">
-				<h2>Case Study</h2>
-			</div>
+			<h1>Case Study</h1>
+			<div id="case-study" class="row"></div>
+			<h1>Projects</h1>
 			<div id="projects" class="row">
-				<h2>Projects</h2>
 				<div id="carousel" class="row">
 					<div id="left-scroll" class="col-md-1"></div>
 					<ul class="col-md-12">
@@ -58,8 +63,8 @@
 					<div id="right-scroll" class="col-md-1"></div>
 				</div>
 			</div>
+			<h1>Skills</h1>
 			<div id="skills" class="row">
-				<h2>Skills</h2>
 				<ul class="col-md-4">
 					<li>Skill 1</li>
 					<li>Skill 2</li>
@@ -81,12 +86,16 @@
 	<footer class="row">
 		<nav id="social-media" class="col-md-4 col-md-offset-8 col-sm-12 col-sm-offset-0">
 			<ul>
-				<a href="https://www.linkedin.com/in/gflujan/"><li id="lnkd" class="col-md-3 social-badge"></li></a>
-				<a href="behance.net/anewlevelmedia"><li id="bhnc" class="col-md-3 social-badge"></li></a>
-				<a href="https://dribbble.com/ANewLevelMedia"><li id="drib" class="col-md-3 social-badge"></li></a>
-				<a href="https://twitter.com/gabriel_lujan_"><li id="twit" class="col-md-3 social-badge"></li></a>
+				<a href="https://www.linkedin.com/in/gflujan/" target="_blank"><li id="lnkd" class="col-md-3 social-badge"></li></a>
+				<a href="https://www.behance.net/anewlevelmedia" target="_blank"><li id="bhnc" class="col-md-3 social-badge"></li></a>
+				<a href="https://dribbble.com/ANewLevelMedia" target="_blank"><li id="drib" class="col-md-3 social-badge"></li></a>
+				<a href="https://twitter.com/gabriel_lujan_" target="_blank"><li id="twit" class="col-md-3 social-badge"></li></a>
 			</ul>
 		</nav>
+		<div id="legal">
+			Gabriel F. Lujan &copy; <span id="copyright"></span><br>
+			All Rights Reserved
+		</div>
 	</footer>
 
 	<!-- VENDOR SCRIPTS -->

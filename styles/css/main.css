@@ -31,14 +31,19 @@ body
         -ms-transition: all .5s ease-in-out;
          -o-transition: all .5s ease-in-out;
             transition: all .5s ease-in-out;
+    word-break: break-word;
 
     color: #ccc;
-    background:    -moz-radial-gradient(center, ellipse cover,  #737a59 0%, #3b3f31 50%, #333 75%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(center, ellipse cover,  #737a59 0%,#3b3f31 50%,#333 75%); /* Chrome10-25,Safari5.1-6 */
-    background:         radial-gradient(ellipse at center,  #737a59 0%,#3b3f31 50%,#333 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    background-color: #3b3f31; /* Old browsers */
-
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#737a59', endColorstr='#333333',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /* background:    -moz-radial-gradient(center, ellipse cover,  #737a59 0%, #3b3f31 50%, #333 75%); */ /* FF3.6-15 */
+    /* background: -webkit-radial-gradient(center, ellipse cover,  #737a59 0%,#3b3f31 50%,#333 75%); */ /* Chrome10-25,Safari5.1-6 */
+    /* background:         radial-gradient(ellipse at center,  #737a59 0%,#3b3f31 50%,#333 75%); */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* background-color: #3b3f31; */ /* Old browsers */
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#737a59', endColorstr='#333333',GradientType=1 ); */ /* IE6-9 fallback on horizontal gradient */
+    background-color: #2e3224;
+    background-image: url(../img/bg/map-texture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
 a
 {
@@ -48,9 +53,17 @@ address
 {
     /*  */
 }
-h2
+h1
 {
-    color: #6c458f;
+    font-size: 4.5rem;
+
+    position: relative;
+    z-index: 1;
+
+    margin-bottom: -1rem;
+    padding: 0;
+
+    color: #550008;
     text-shadow: -1px -1px 0 #ccc,
     1px -1px 0 #ccc,
     -1px 1px 0 #ccc,
@@ -68,22 +81,77 @@ h2
     min-height: 100vh;
     margin: 0 auto;
 }
-header
+header::before
 {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
     height: 42rem;
 
-    border: .5rem solid #777;
-    border-top: 0;
-    background-color: #737a59;
+    content: '';
+
     background-image: url(../img/nav/cover-image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    -webkit-filter: blur(5px);
+       -moz-filter: blur(5px);
+        -ms-filter: blur(5px);
+         -o-filter: blur(5px);
+            filter: blur(5px);
+}
+header
+{
+    height: 42.5rem;
+
+    border-bottom: .5rem solid #777;
+    box-shadow: 0 0 50px 0 rgba(51,51,51,.5);
+}
+div#intro
+{
+    width: 56%;
+    margin: 0 auto;
+    padding: 2rem;
+
+    color: #000;
+    border-radius: 0 0 .5em .5em;
+    background-color: rgba(255,255,255,.5);
+}
+p#gfl
+{
+    font-size: 6rem;
+    font-weight: 600;
+
+    margin: 0;
+}
+p#tagline
+{
+    font-size: 2rem;
+
+    margin: 0;
+}
+p#tagline > span
+{
+    font-style: italic;
+}
+p#tagline > span::before
+{
+    content: '"';
+}
+p#tagline > span::after
+{
+    content: '"';
 }
 div#head
 {
     position: relative;
-    top: 60%;
+    top: 17%;
 
     width: 56%;
     height: 100%;
@@ -92,7 +160,7 @@ div#head
 nav#main
 {
     position: relative;
-    top: 30%;
+    top: 39%;
 }
 nav#main > ul
 {
@@ -105,8 +173,8 @@ nav#main > ul > li
 {
     display: inline;
 
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     margin-right: 2rem;
     padding: 0;
 
@@ -120,8 +188,8 @@ nav#main > ul > li
 {
     float: right;
 
-    width: 24rem;
-    height: 24rem;
+    width: 32rem;
+    height: 32rem;
 
     border: .5rem solid #494949;
     border-radius: 50%;
@@ -134,6 +202,22 @@ nav#main > ul > li
 section#content
 {
     margin: 10rem 0;
+    padding: 0;
+}
+/* Case Study Title Line */
+section#content > h1:nth-of-type(1)
+{
+    /*  */
+}
+/* Projects Title Line */
+section#content > h1:nth-of-type(2)
+{
+    text-align: center;
+}
+/* Skills Title Line */
+section#content > h1:nth-of-type(3)
+{
+    text-align: right;
 }
 div#case-study
 {
@@ -146,29 +230,13 @@ div#case-study
     background-position: 0 68%;
     background-size: cover;
 }
-div#case-study > h2
-{
-    position: relative;
-    top: -11%;
-
-    padding-left: 2rem;
-}
 div#projects
 {
-    margin-top: 2rem;
-}
-div#projects > h2
-{
-    position: relative;
-    z-index: 2;
-
-    text-align: center;
+    /*  */
 }
 div#carousel
 {
     position: relative;
-
-    margin-top: -2.2%;
 }
 div#carousel > ul
 {
@@ -209,8 +277,8 @@ div#right-scroll
     z-index: 2;
     top: 0;
 
-    width: 1rem;
-    height: 26rem;
+    width: 4%;
+    height: 36rem;
 
     cursor: pointer;
     cursor: hand;
@@ -236,20 +304,13 @@ div#skills
 {
     clear: both;
 
-    margin-top: 6rem;
-
     border: .375rem solid #ccc;
     background-color: #737a59;
 }
-div#skills > h2
-{
-    margin-top: -2.65%;
-    padding-right: 2rem;
-
-    text-align: right;
-}
 div#skills > ul
 {
+    padding-top: 1rem;
+
     list-style-type: none;
 
     text-align: center;
@@ -258,15 +319,13 @@ footer
 {
     height: 14rem;
 
-    border: .5rem solid #777;
-    border-bottom: 0;
+    border-top: .5rem solid #777;
     background-color: #333;
 }
 nav#social-media
 {
     position: relative;
     top: -28%;
-    right: 2%;
 
     float: right;
 }
@@ -311,6 +370,18 @@ nav#social-media > ul > a > li
 #twit
 {
     background-image: url(../img/social-badges/sb-twit.jpg);
+}
+div#legal
+{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+
+    outline: 1px dashed yellow;
 }
 
 
