@@ -32,7 +32,7 @@
 		<div id="intro">
 			<p id="gfl">Gabriel F. Lujan</p>
 			<p id="tagline">
-				<span>It's never too late to be who you might have been.</span> - George Eliot
+				<span class="quote">It's never too late to be who you might have been.</span> - Unknown
 			</p>
 		</div>
 		<div id="head">
