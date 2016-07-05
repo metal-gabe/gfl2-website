@@ -131,18 +131,14 @@ p#gfl
 }
 p#tagline
 {
-<<<<<<< HEAD
     font-size: 2rem;
-=======
-	text-align: right;
-	font-size: 2rem;
->>>>>>> 48b751bd1515bc570958afd3417beee1e6fbcf6f
+    font-size: 2rem;
 
     margin: 0;
 
     text-align: right;
+    text-align: right;
 }
-<<<<<<< HEAD
 p#tagline > span
 {
     font-style: italic;
@@ -155,8 +151,6 @@ p#tagline > span::after
 {
     content: '"';
 }
-=======
->>>>>>> 48b751bd1515bc570958afd3417beee1e6fbcf6f
 div#head
 {
     position: relative;
@@ -480,19 +474,15 @@ button
 }
 .quote
 {
-<<<<<<< HEAD
-    /*  */
-=======
-	font-style: italic;
+    font-style: italic;
 }
 .quote::before
 {
-	content: '"';
+    content: '"';
 }
 .quote::after
 {
-	content: '"';
->>>>>>> 48b751bd1515bc570958afd3417beee1e6fbcf6f
+    content: '"';
 }
 .stroke-black
 {
