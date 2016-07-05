@@ -32,16 +32,16 @@
 		<div id="intro">
 			<p id="gfl">Gabriel F. Lujan</p>
 			<p id="tagline">
-				<span>It's never too late to be who you might have been.</span> - George Eliot
+				<span>It's never too late to be who you might have been.</span> - Unknown
 			</p>
 		</div>
 		<div id="head">
 			<nav id="main">
 				<ul>
-					<li class="col-md-3"><a href="#">Home</a></li>
-					<li class="col-md-3"><a href="#">About</a></li>
-					<li class="col-md-3"><a href="#">Overview</a></li>
-					<li class="col-md-3"><a href="#">Contact</a></li>
+					<a href="#" target="_blank"><li id="home" class="col-md-3 main-nav"></li></a>
+					<a href="#" target="_blank"><li id="about" class="col-md-3 main-nav"></li></a>
+					<a href="#" target="_blank"><li id="overview" class="col-md-3 main-nav"></li></a>
+					<a href="#" target="_blank"><li id="contact" class="col-md-3 main-nav"></li></a>
 				</ul>
 			</nav>
 			<div id="hero"></div>
