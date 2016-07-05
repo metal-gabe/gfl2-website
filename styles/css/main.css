@@ -132,11 +132,9 @@ p#gfl
 p#tagline
 {
     font-size: 2rem;
-    font-size: 2rem;
 
     margin: 0;
 
-    text-align: right;
     text-align: right;
 }
 p#tagline > span
