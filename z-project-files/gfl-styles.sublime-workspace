@@ -80,21 +80,10 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/Gambit/Documents/Repositories/WebDev/gflujan.com/styles/css/bootstrap.css",
+			"file": "/D/Documents/GitHub/gflujan.com/styles/css/main.css",
 			"settings":
 			{
-				"buffer_size": 137067,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "/* ---------------------------------------------\n				GENERAL\n--------------------------------------------- */\n/* Custom Fonts */\n@font-face\n{\n    font-family: 'gotham';\n    font-weight: normal;\n    font-style: normal;\n\n    src: url('../fonts/Gotham-Book.eot');\n    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),\n    url('../fonts/Gotham-Book.woff2') format('woff2'),\n    url('../fonts/Gotham-Book.woff') format('woff'),\n    url('../fonts/Gotham-Book.ttf') format('truetype'),\n    url('../fonts/Gotham-Book.svg#gotham') format('svg');\n}\n\n/* Putting OUTLINES on everything for testing/visibility */\n/* * { outline: 1px dashed #f00; } */\n\n/* Primary Color: #3b3f31;\nSecondary Color: #737a59; */\n\nbody\n{\n    font-family: gotham;\n\n    -webkit-transition: all .5s ease-in-out;\n       -moz-transition: all .5s ease-in-out;\n        -ms-transition: all .5s ease-in-out;\n         -o-transition: all .5s ease-in-out;\n            transition: all .5s ease-in-out;\n    word-break: break-word;\n\n    color: #ccc;\n    /* background:    -moz-radial-gradient(center, ellipse cover,  #737a59 0%, #3b3f31 50%, #333 75%); */ /* FF3.6-15 */\n    /* background: -webkit-radial-gradient(center, ellipse cover,  #737a59 0%,#3b3f31 50%,#333 75%); */ /* Chrome10-25,Safari5.1-6 */\n    /* background:         radial-gradient(ellipse at center,  #737a59 0%,#3b3f31 50%,#333 75%); */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n    /* background-color: #3b3f31; */ /* Old browsers */\n    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#737a59', endColorstr='#333333',GradientType=1 ); */ /* IE6-9 fallback on horizontal gradient */\n    background-color: #2e3224;\n    background-image: url(../img/bg/map-texture.jpg);\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: 115% 100%;\n}\na\n{\n    color: #ccc;\n}\naddress\n{\n    /*  */\n}\nh1\n{\n    font-size: 4.5rem;\n\n    position: relative;\n    z-index: 1;\n\n    margin-bottom: -1rem;\n    padding: 0;\n\n    color: #550008;\n    text-shadow: -1px -1px 0 #ccc,\n    1px -1px 0 #ccc,\n    -1px 1px 0 #ccc,\n    1px 1px 0 #ccc;\n}\n\n\n\n/* ---------------------------------------------\n				MAIN CONTAINER\n--------------------------------------------- */\n#CONTAINER\n{\n    width: 56%;\n    margin: 0 auto;\n}\nheader::before\n{\n    position: absolute;\n    z-index: -1;\n    right: 0;\n    left: 0;\n\n    display: block;\n\n    width: 100%;\n    height: 42rem;\n\n    content: '';\n\n    background-image: url(../img/nav/cover-image.jpg);\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n\n    -webkit-filter: blur(5px);\n       -moz-filter: blur(5px);\n        -ms-filter: blur(5px);\n         -o-filter: blur(5px);\n            filter: blur(5px);\n}\nheader\n{\n    height: 42.5rem;\n\n    border-bottom: .5rem solid #777;\n    box-shadow: 0 0 50px 0 rgba(51,51,51,.5);\n}\ndiv#intro\n{\n    width: 56%;\n    margin: 0 auto;\n    padding: 2rem;\n\n    color: #000;\n    border-radius: 0 0 .5em .5em;\n    background-color: rgba(155,163,133,.5);\n}\np#gfl\n{\n    font-size: 6rem;\n    font-weight: 600;\n\n    margin: 0;\n}\np#tagline\n{\n    font-size: 2rem;\n\n    margin: 0;\n\n    text-align: right;\n}\np#tagline > span\n{\n    font-style: italic;\n}\np#tagline > span::before\n{\n    content: '\"';\n}\np#tagline > span::after\n{\n    content: '\"';\n}\ndiv#head\n{\n    position: relative;\n    top: 27%;\n\n    width: 56%;\n    height: 100%;\n    margin: 0 auto;\n}\nnav#main\n{\n    position: relative;\n    top: 30%;\n}\nnav#main > ul\n{\n    margin: 0;\n    padding: 0;\n\n    text-align: center;\n}\nnav#main > ul > a > li\n{\n    display: inline;\n\n    width: 6rem;\n    height: 6rem;\n    margin-right: 2rem;\n    padding: 0;\n\n    list-style-type: none;\n\n    border: .3rem solid #494949;\n    background-color: #737a59;\n    box-shadow: 0 3px 14px 1px rgba(204,204,204,.35);\n}\n.main-nav\n{\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: 130%;\n}\n#home\n{\n    background-image: url(../../pics/icons/nav/nav-gry-grn-home.png);\n}\n#about\n{\n    background-image: url(../../pics/icons/nav/nav-gry-grn-about.png);\n}\n#contact\n{\n    background-image: url(../../pics/icons/nav/nav-gry-grn-contact.png);\n}\n#overview\n{\n    background-image: url(../../pics/icons/nav/nav-gry-grn-overview.png);\n}\n#hero\n{\n    float: right;\n\n    width: 28rem;\n    height: 28rem;\n\n    border: .5rem solid #494949;\n    border-radius: 50%;\n    background-image: url(../img/hero/gabe.jpg);\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    box-shadow: 0 3px 14px 1px rgba(204,204,204,.15);\n}\nsection#content\n{\n    margin: 10rem 0;\n    padding: 0;\n}\n/* Case Study Title Line */\nsection#content > h1:nth-of-type(1)\n{\n    /*  */\n}\n/* Projects Title Line */\nsection#content > h1:nth-of-type(2)\n{\n    text-align: center;\n}\n/* Skills Title Line */\nsection#content > h1:nth-of-type(3)\n{\n    text-align: right;\n}\ndiv#case-study\n{\n    height: 42rem;\n\n    border: .375rem solid #ccc;\n    background-color: #494949;\n    background-image: url(../img/proj/case-study.jpg);\n    background-repeat: no-repeat;\n    background-position: 0 68%;\n    background-size: cover;\n}\ndiv#projects\n{\n    /*  */\n}\ndiv#carousel\n{\n    position: relative;\n}\ndiv#carousel > ul\n{\n    margin-bottom: 0;\n}\ndiv#carousel > ul > li\n{\n    height: 36rem;\n\n    list-style-type: none;\n\n    border: .375rem solid #ccc;\n}\n#proj1,\n#proj2,\n#proj3\n{\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n}\n#proj1\n{\n    background-image: url(../img/proj/project-01.jpg);\n}\n#proj2\n{\n    background-image: url(../img/proj/project-02.jpg);\n}\n#proj3\n{\n    background-image: url(../img/proj/project-03.jpg);\n}\ndiv#left-scroll,\ndiv#right-scroll\n{\n    position: absolute;\n    z-index: 2;\n    top: 0;\n\n    width: 4%;\n    height: 36rem;\n\n    cursor: pointer;\n    cursor: hand;\n\n    background-image: url(../img/nav/nav-arrow-right.png);\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\ndiv#left-scroll\n{\n    left: 1.25%;\n\n    transform: rotate(180deg);\n}\ndiv#right-scroll\n{\n    right: 1.25%;\n\n    float: right;\n}\ndiv#skills\n{\n    clear: both;\n\n    border: .375rem solid #ccc;\n    background-color: #737a59;\n}\ndiv#skills > ul\n{\n    padding-top: 1rem;\n\n    list-style-type: none;\n\n    text-align: center;\n}\nfooter\n{\n    height: 14rem;\n\n    border-top: .5rem solid #777;\n    background-color: #333;\n}\nnav#social-media\n{\n    position: relative;\n    top: -28%;\n\n    float: right;\n}\nnav#social-media > ul\n{\n    margin: 0;\n    padding: 0;\n\n    text-align: center;\n}\nnav#social-media > ul > a > li\n{\n    display: inline;\n\n    width: 6rem;\n    height: 6rem;\n    margin: 0 1rem;\n\n    list-style-type: none;\n\n    border: .3rem solid #494949;\n    box-shadow: 0 3px 14px 1px rgba(204,204,204,.35);\n}\n.social-badge\n{\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n}\n#lnkd\n{\n    background-image: url(../img/social-badges/sb-lnkd.jpg);\n}\n#bhnc\n{\n    background-image: url(../img/social-badges/sb-bhnc.jpg);\n}\n#drib\n{\n    background-image: url(../img/social-badges/sb-drib.jpg);\n}\n#twit\n{\n    background-image: url(../img/social-badges/sb-twit.jpg);\n}\ndiv#legal\n{\n    position: relative;\n\n    width: 100%;\n    height: 100%;\n    margin: 0 auto;\n\n    text-align: center;\n}\n\n\n\n/* ---------------------------------------------\n				BADGES, BUTTONS & STICKERS\n--------------------------------------------- */\nbutton\n{\n    /*  */\n}\n.btn\n{\n    /*  */\n}\n.btn-cta\n{\n    /*  */\n}\n\n\n\n/* ---------------------------------------------\n				DEFINE GENERAL {classes} HERE\n--------------------------------------------- */\n.ctr-text\n{\n    text-align: center;\n}\n.ctr-vert\n{\n    display:         flex;\n    display: -webkit-flex;\n\n    height: 100%;\n\n            align-items: center;\n    -webkit-align-items: center;\n       -moz-align-items: center;\n        -ms-align-items: center;\n         -o-align-items: center;\n            justify-content: center;\n    -webkit-justify-content: center;\n       -moz-justify-content: center;\n        -ms-justify-content: center;\n         -o-justify-content: center;\n}\n.date\n{\n    /*  */\n}\n.email\n{\n    /*  */\n}\n.hashtag\n{\n    /*  */\n}\n.note\n{\n    /*  */\n}\n.phone\n{\n    /*  */\n}\n.quote\n{\n    font-style: italic;\n}\n.quote::before\n{\n    content: '\"';\n}\n.quote::after\n{\n    content: '\"';\n}\n.stroke-black\n{\n    text-shadow: -1px -1px 0 #000,\n    1px -1px 0 #000,\n    -1px 1px 0 #000,\n    1px 1px 0 #000;\n}\n.stroke-pink\n{\n    text-shadow: -1px -1px 0 #e40074,\n    1px -1px 0 #e40074,\n    -1px 1px 0 #e40074,\n    1px 1px 0 #e40074;\n}\n.stroke-white\n{\n    text-shadow: -1px -1px 0 #fff,\n    1px -1px 0 #fff,\n    -1px 1px 0 #fff,\n    1px 1px 0 #fff;\n}\n",
-			"file": "/Users/Gambit/Documents/Repositories/WebDev/gflujan.com/styles/css/main.css",
-			"file_size": 8721,
-			"file_write_time": 131121774150000000,
-			"settings":
-			{
-				"buffer_size": 8722,
+				"buffer_size": 8721,
 				"line_ending": "Unix"
 			}
 		}
@@ -146,11 +135,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Gambit/Documents/Repositories/WebDev/gflujan.com/styles",
-		"/Users/Gambit/Documents/Repositories/WebDev/gflujan.com/styles/css"
+		"/D/Documents/GitHub/gflujan.com/styles",
+		"/D/Documents/GitHub/gflujan.com/styles/css"
 	],
 	"file_history":
 	[
+		"/Users/Gambit/Documents/Repositories/WebDev/gflujan.com/styles/css/main.css",
+		"/Users/Gambit/Documents/Repositories/WebDev/gflujan.com/styles/css/bootstrap.css",
 		"/Users/Gambit/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/Gambit/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/Gambit/Documents/Repositories/WebDev/gflujan.com/styles/css/carousel.css",
@@ -276,9 +267,7 @@
 		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/portfolios/shane.html",
 		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/portfolios/heather.html",
 		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/home.html",
-		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/portfolios.css",
-		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/portfolios.html",
-		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/home.html"
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/portfolios.css"
 	],
 	"find":
 	{
@@ -338,16 +327,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/Gambit/Documents/Repositories/WebDev/gflujan.com/styles/css/bootstrap.css",
+					"file": "/D/Documents/GitHub/gflujan.com/styles/css/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 137067,
+						"buffer_size": 8721,
 						"regions":
 						{
 						},
@@ -366,6 +355,9 @@
 								"close":
 								{
 								},
+								"icon":
+								{
+								},
 								"open":
 								{
 								},
@@ -375,16 +367,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -395,204 +377,55 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content"
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
 							],
 							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/Gambit/Documents/Repositories/WebDev/gflujan.com/styles/css/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
