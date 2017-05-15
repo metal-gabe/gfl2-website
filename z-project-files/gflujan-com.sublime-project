@@ -2,15 +2,11 @@
 	"folders":
 	[
 		{
-			// Path for hulk-md
+			// Path on hulk-md
 			"path": "/Volumes/Galvatron/fr3ak/Documents/Repositories/WebDev/gflujan.com"
 		},
 		{
-			// Path for jugg-wd
-			"path": "D:/Documents/Repositories/WebDev/gflujan.com"
-		},
-		{
-			// Path for xavi-mn
+			// Path on xavi-mn
 			"path": "/Users/Gambit/Documents/Repositories/WebDev/gflujan.com"
 		},
 	]
