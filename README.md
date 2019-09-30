@@ -1,2 +1,3 @@
-# gflujan.com
-Gabriel F. Lujan's Portfolio Site
+# Gabriel Lujan's Portfolio (v2) 
+
+Second version of `gflujan.com` coming soon...
