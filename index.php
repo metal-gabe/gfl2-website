@@ -7,7 +7,6 @@
 <!-- Pg. 01, Gabriel F. Lujan -->
   <!-- ********************************************* HEAD: START ********************************************** -->
   <HEAD>
-
     <meta charset="UTF-8">
     <meta name="author" content="Gabriel F. Lujan">
     <meta name="description" content="This is the portfolio site for all things pertaining to, and created by, Gabriel F. Lujan.">
@@ -20,9 +19,7 @@
 
     <!-- CUSTOM STYLES -->
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/main.css">
-
   </HEAD>
-
 
   <!-- ********************************************* BODY: START ********************************************** -->
   <BODY>
