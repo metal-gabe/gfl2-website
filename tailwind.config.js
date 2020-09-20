@@ -1,4 +1,9 @@
 module.exports = {
+	future: {
+		purgeLayersByDefault: true,
+		removeDeprecatedGapUtilities: true,
+	},
+	plugins: [],
 	purge: [],
 	theme: {
 		extend: {
@@ -10,5 +15,4 @@ module.exports = {
 	variants: {
 		padding: ['first', 'last'],
 	},
-	plugins: [],
 };
