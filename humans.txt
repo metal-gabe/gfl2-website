@@ -1,15 +1,29 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* ========================================================================== */
+// TEAM
+/* ========================================================================== */
+	Author: Gabriel Arellano
+	Designer: Gabriel Arellano
+	Developer: Gabriel Arellano
 
-# TEAM
+	Company: A New Level Media
+	Contact: gabriel [at] anewlevel.com
+	Twitter: @anewlevelmedia
 
-    <name> -- <role> -- <twitter>
+	From: Planet Erf... E... R... F.
 
-# THANKS
 
-    <name>
+/* ========================================================================== */
+// THANKS
+/* ========================================================================== */
 
-# TECHNOLOGY COLOPHON
+	Lovers: Much love to everyone who's ever supported me, helped me, loved me and guided me along the way.
+	Haters: To those that have hurt me (unintentionally || intentionally), and to those that bullied me when I was younger, thank you for the motivation.
 
-    HTML5, CSS3
-    jQuery, Modernizr
+
+/* ========================================================================== */
+// SITE DETAILS
+/* ========================================================================== */
+	Last update: 19-Sep-2020 @ 21:37
+	Language: English
+	Doctype: HTML5
+	IDE: VS Code
