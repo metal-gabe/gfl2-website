@@ -1,3 +1,10 @@
+## =============================================================================
+## LINKS
+## https://editorconfig.org/
+## https://github.com/ec4j/editorconfig-gradle-plugin
+## https://plugins.gradle.org/plugin/org.ec4j.editorconfig
+## =============================================================================
+
 # Setting this file as the top most Editor Config file
 root = true
 
