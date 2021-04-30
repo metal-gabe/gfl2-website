@@ -7,9 +7,14 @@
       "npm": "6.14.12"
    },
    "scripts": {
-      "dev": "next dev",
       "build": "next build",
+      "dev": "next dev",
       "start": "next start"
+   },
+   "scripts-info": {
+      "build": "This creates the production Next.js build to be used for deployment (CI/CD, etc.)",
+      "dev": "This starts the Next.js development server.",
+      "start": "This starts a production (?) type server."
    },
    "dependencies": {
       "classnames": "^2.2.6",
