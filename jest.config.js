@@ -27,7 +27,7 @@ module.exports = {
    },
    // preset: "",
    // roots: ["<rootDir>/src"], // NOTE :: This is configured by default it seems (and it overwrites something else that makes Jest not find any tests), but I'm keeping this here for visibility -- (Metal Gabe, 02-May-2021 @ 16:34)
-   setupFilesAfterEnv: ["<rootDir>/tests/jestSetup.js"],
+   setupFilesAfterEnv: ["<rootDir>/tests/jest.setup.js"],
    // snapshotSerializers: ["enzyme-to-json/serializer"], // TODO :: Un-comment this when Enzyme gets added in
    testMatch: [
       "**/tests/unit/**/*.spec.[jt]s?(x)",
