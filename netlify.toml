@@ -1,0 +1,7 @@
+[[redirects]]
+# Update these `from` and `to` to the proper paths once I have things set up for them
+from = "/*"
+to = "https://www.gflujan.com/:splat"
+source = 301
+force = true
+
