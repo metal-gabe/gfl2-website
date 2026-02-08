@@ -3,7 +3,7 @@
 
 EXIT_CODE=0;
 
-yarn run type:check || EXIT_CODE=$?;
-yarn run test || EXIT_CODE=$?;
+bun run type:check || EXIT_CODE=$?;
+bun run test || EXIT_CODE=$?;
 
 exit $EXIT_CODE;

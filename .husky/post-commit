@@ -7,7 +7,7 @@ COMMIT_MSG=$(git log -1 --pretty=%B)
 
 if echo "$COMMIT_MSG" | grep -q "\[cr\]"; then
    echo "=====[ Running the post-commit script... ]=====";
-   yarn run code:review || EXIT_CODE=$?;
+   bun run code:review || EXIT_CODE=$?;
 else
    echo "=====[ Skipping the post-commit script... ]=====";
 fi
