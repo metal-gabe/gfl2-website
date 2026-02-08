@@ -2,7 +2,6 @@
    "name": "next-js-test",
    "version": "0.1.0",
    "private": true,
-   "packageManager": "bun@1.3.0",
    "engines": {
       "bun": ">=1.3.0"
    },
@@ -10,21 +9,35 @@
       "build": "next build",
       "dev": "next dev",
       "start": "next start",
+      "test": "echo 'tests will be added later'",
       "test:e2e": "",
-      "test:frontend": "jest",
-      "test:frontend:once": "jest",
-      "test:unit": ""
+      "test:front": "jest",
+      "test:front:once": "jest",
+      "test:unit": "",
+      "——————————————————————————————————————————[ LINT ]——————————————————————————————————————————": "",
+      "··········································( combined )": "",
+      "lint:commit": "echo 'NOTE :: Run `check-for-leaks && lint-staged` once I figure out their output issues' && exit 0",
+      "——————————————————————————————————————————[ UTILS ]——————————————————————————————————————————": "",
+      "··········································( analysis )": "",
+      "circ:check": "echo '=====[ Running the `CIRC:CHECK` script... ]====='; madge --circular .",
+      "code:review": "echo '=====[ Running the `CODE:REVIEW` script... ]====='; coderabbit review --plain --type committed",
+      "secrets:check": "echo '=====[ Running the `SECRETS:CHECK` script... ]====='; ggshield secret scan path . --recursive --yes",
+      "··········································( type-checking )": "",
+      "type:check": "echo '=====[ Running the `TYPE:CHECK` script... ]====='; tsc --noEmit",
+      "type:check:trace": "echo '=====[ Running the `TYPE:CHECK:TRACE` script... ]====='; tsc --noEmit --traceResolution"
    },
    "scripts-info": {
       "build": "This creates the production Next.js build to be used for deployment (CI/CD, etc.)",
       "dev": "This starts the Next.js development server.",
       "start": "This starts a production (?) type server.",
-      "test:frontend": "",
-      "test:frontend:once": ""
+      "test:front": "",
+      "test:front:once": ""
    },
    "dependencies": {
       "classnames": "^2.5.1",
+      "husky": "^9.1.7",
       "next": "^16.0.0",
+      "npm-scripts-info": "^0.3.9",
       "postcss-preset-env": "^10.4.0",
       "react": "^19.2.0",
       "react-dom": "19.2.0",
